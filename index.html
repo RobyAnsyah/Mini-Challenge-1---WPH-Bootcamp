@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Halaman profil pengguna sederhana berisi informasi pribadi, hobi, dan kontak."
+    />
+    <title>Halaman Profil Pengguna</title>
+  </head>
+  <body>
+    <header>
+      <h1>Profil Saya</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Tentang Saya</h2>
+
+        <img
+          src="./foto Roby Andreansyah.jpg"
+          alt="Foto Profil"
+          width="150px"
+          height="150px"
+        />
+
+        <p>
+          Halo, nama saya Roby Andreansyah. Saya sedang belajar menjadi seorang
+          <strong>Frontend Developer</strong> dan senang membantu orang tua
+          sambil terus mengembangkan keterampilan coding saya.
+        </p>
+
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/roby-andreansyah-4475561b7/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/roby_ansyah45/" target="_blank"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+
+        <table border="1" cellspacing="0" cellpadding="8">
+          <tr>
+            <th>Keahlian</th>
+            <th>Tingkat</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>TypeScript</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>Tailwind CSS</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>React JS</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>Next JS</td>
+            <td>Beginner</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <br /><br />
+      <form action="#" method="post">
+        <label for="email">Email Anda: </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Masukkan email anda"
+        />
+        <br />
+        <label for="tujuan-kontak">Tujuan Kontak: </label>
+        <select name="tujuan-kontak" id="tujuan-kontak">
+          <option value="Pertanyaan-Umum">Pertanyaan Umum</option>
+          <option value="Kerja-Sama">Kerja Sama</option>
+          <option value="Umpan-Balik">Umpan Balik</option>
+        </select>
+        <br />
+        <button type="submit">Kirim</button>
+      </form>
+    </footer>
+  </body>
+</html>
